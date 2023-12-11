@@ -3,3 +3,56 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* Update the header */
+h1 {
+  text-align: center;
+}
+
+/* Center our image */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Jazz up our navigation links */
+.navbar {
+  text-align: center;
+}
+
+.navbar a {
+  padding: 10px;
+  background-color: grey; 
+}
+
+/* Image caption styling */
+#image-caption {
+  font-size: smaller;
+  text-align: center;
+}
+
+/* Update the text block */
+#featured-property p {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Make our #details section horizontal */
+#details {
+  text-align: center; /* Center the content */
+  background-color: red; /* Set the background color to red */
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  background-color: red;
+}
+
+/* Finishing touch for the divs at the bottom of the page */
+.bottom-div {
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
